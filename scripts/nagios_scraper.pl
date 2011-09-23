@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 
 # usage: nagios_scraper.pl [user:password@]nagios_host STATUS
+# To use this with the .screenrc in this repo you MUST enter your username and password as well
+# as a valid URL to the nagios installation
+# You also may need to verify the path to your tac.cgi file and modify line 16 accordingly
 # where STATUS is green, red, yellow or all
 
 $nagios_host="<nagios_url>";
