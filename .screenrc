@@ -1,0 +1,16 @@
+# Turn off that annoying start up message
+# startup_message off
+#  
+#  # Turn the even more annoying whole-screen-flash-on-tab-complete "feature"
+#  vbell off
+#
+#  # backticks for nagios_scraper.pl
+#  backtick 110 27 27 /home/jmiller/scripts/nagios_scraper.pl red
+#  backtick 111 61 61 /home/jmiller/scripts/nagios_scraper.pl yellow
+#  backtick 112 73 73 /home/jmiller/scripts/nagios_scraper.pl green
+#   
+#   # Window list at the bottom. hostname, centered tabs and redmarked active windows:
+#   hardstatus alwayslastline
+#   #hardstatus string '%{+b r}%110`%{+b y}%111`%{= g}%112`'
+#   hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{+b r}%110`%{+b y}%111`%{= g}%112`][%{B} %d/%m %{W}%c %{g}]'
+
